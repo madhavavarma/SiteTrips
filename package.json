@@ -1,9 +1,9 @@
 {
-  "name": "storeuinom",
+  "name": "sitetrips",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://madhavavarma.github.io/storeuinom/",
+  "homepage": "https://madhavavarma.github.io/SiteTrips/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -54,8 +54,8 @@ const SupabaseAuth = ({ onAuthSuccess }: SupabaseAuthProps) => {
     setMessage('');
     const redirectTo =
       process.env.NODE_ENV === 'production'
-        ? 'https://madhavavarma.github.io/storeuinom/#/reset-password'
-        : 'http://localhost:5173/storeuinom/#/reset-password';
+        ? 'https://madhavavarma.github.io/SiteTrips/#/reset-password'
+        : 'http://localhost:5173/SiteTrips/#/reset-password';
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
       redirectTo
     });
